@@ -1,0 +1,39 @@
+/* Header css with a dark-purple gradient background and white text */
+.Header {
+  background: linear-gradient(90deg, #6a11cb 0%, #3c0a72 100%);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.Header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.Header a {
+  color: white;
+  text-decoration: none;
+}
+
+.Header a:hover {
+  text-decoration: underline;
+}
+
+.Header nav {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.Header nav a {
+  margin: 0 0.5rem;
+}
+
+.Header nav a:hover {
+  text-decoration: underline;
+}
+
+.Header nav h1 {
+  margin: 0;
+  margin-bottom: 1rem;
+}
